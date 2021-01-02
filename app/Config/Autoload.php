@@ -62,5 +62,10 @@ class Autoload extends AutoloadConfig
 	 *
 	 * @var array
 	 */
-	public $classmap = [];
+
+
+//$autoload['helper'] = array('url','form');	
+public $classmap = [
+    'Login' => APPPATH .'Libraries/Login.php'
+];
 }
